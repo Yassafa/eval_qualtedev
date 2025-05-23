@@ -1,7 +1,8 @@
 III. Couverture de code
 
 Comment interpréter ce résultat ?
-
-
+Aucune des instructions de la méthode mult() n'ont été parcourue par le test ce qui siginfie que cette méthode n'a pas été testée.
+En revanche toutes les autres méthodes ont été parcourues à 100%, y compris la méthode div qui possède une branche (le if qui teste si le dénominateur est nul), ce qui signifie que toutes ces méthodes ont été testées et que le cas de figure du dénominateur nul a été pris en compte dans ces tests.
 
 Que faut-il faire pour améliorer ce résultat ?
+Il suffit de rajouter une méthode de test permettant de tester la méthode de multiplication.
