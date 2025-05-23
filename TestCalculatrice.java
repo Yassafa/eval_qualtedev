@@ -12,6 +12,11 @@ public class TestCalculatrice {
 
     @Test
     public void whenAddingTwoAndFive_ShouldReturnSeven() {
-        assertEquals(7, calc.add(2, 5));
+        assertEquals(7, this.calc.add(2, 5));
+    }
+
+    @Test
+    public void whenDividingFifteenByThree_ShouldReturnFive() {
+        assertEquals(3, this.calc.div(15, 5));
     }
 }
