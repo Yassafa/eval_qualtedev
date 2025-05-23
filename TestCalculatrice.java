@@ -19,4 +19,9 @@ public class TestCalculatrice {
     public void whenDividingFifteenByThree_ShouldReturnFive() {
         assertEquals(3, this.calc.div(15, 5));
     }
+
+    @Test
+    public void whenMultiplyingMinusTwoAndThree_ShouldReturnMinusSix() {
+        assertEquals(-6, this.calc.mult(-2, 3));
+    }
 }
