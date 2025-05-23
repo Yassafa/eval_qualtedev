@@ -24,4 +24,10 @@ public class TestCalculatrice {
     public void whenMultiplyingMinusTwoAndThree_ShouldReturnMinusSix() {
         assertEquals(-6, this.calc.mult(-2, 3));
     }
+
+    /*Test qui fail*/
+    @Test
+    public void whenSubtractingFourFromNine_ShouldReturnFive() {
+        assertEquals(5, calc.minus(9, 4));
+    }
 }
